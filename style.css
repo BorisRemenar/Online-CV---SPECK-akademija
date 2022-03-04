@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    font-family: 'Balsamiq Sans';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 1000px;
+}
+
+.left{
+
+    width: 450px;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.right{
+
+    width: 450px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.line_1{
+
+    border-left: 6px solid black;
+    height: 900px;
+    margin-top: 50px;
+}
+.line_2{
+
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.rectangle{  
+
+    outline-style: solid;
+    outline-color: black;
+    width: 450px;
+    height: 130px;
+    background-color: lightskyblue;
+    opacity: 0.69;
+}
+
+.text_1{
+
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.text_2{
+
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.text_3{
+
+    font-size: 15px;
+    text-align: justify;
+}
+
+#Name{
+
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+#Headline_1{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 30px;
+    color: lightskyblue;
+}
+
+.picture_1{
+
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.picture_2{
+
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#Icons_1{
+    
+    margin-right: 10px;
+    font-size: 29px;
+}
+
+
